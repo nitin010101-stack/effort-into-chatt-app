@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working for [Best opportunity and innovative ideas](https://github.com/nitin010101-stack/effort-into-chatt-app.git)
 
-- 💬 Ask me about **React jw**
+- 💬 Ask me about **React js**
 
 - 📫 How to reach me **nitindhakad010101@gmail.com**
 
