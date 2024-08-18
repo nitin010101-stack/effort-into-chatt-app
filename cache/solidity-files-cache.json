@@ -1,13 +1,14 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\nk\\Documents\\updated-code\\contracts\\ChatApp.sol": {
-      "lastModificationDate": 1722200762094,
-      "contentHash": "b0dbab85fcc1b451d3572c0d23a5d850",
+    "C:\\Users\\0000\\Pictures\\effort-into-chatt-app\\contracts\\ChatApp.sol": {
+      "lastModificationDate": 1722678799059,
+      "contentHash": "91b7454fdad64da9cb32ddeff588be26",
       "sourceName": "contracts/ChatApp.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.24",
         "settings": {
+          "evmVersion": "paris",
           "optimizer": {
             "enabled": false,
             "runs": 200

@@ -2,8 +2,8 @@ import chatApp from "./ChatApp.json";
 
 //HARDHAT ADDRESS
 // export const ChatAppAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
-//POLYGON ADDRESS
-export const ChatAppAddress = "0xc232137ebe10a9361526a8b8875bc0ec4ee19d517f5da39b546f8b369e814a44";
+//PLOYGON ADDRESS
+export const ChatAppAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
 export const ChatAppABI = chatApp.abi;
 
 //NETWORK
@@ -16,8 +16,8 @@ const networks = {
       symbol: "MATIC",
       decimals: 18,
     },
-    rpcUrls: ["https://rpc-mainnet.maticvigil.com/"],
-    blockExplorerUrls: ["https://polygonscan.com/"],
+    rpcUrls: ["https://rpc-amoy.polygon.technology/"],
+    blockExplorerUrls: ["https://www.oklink.com/amoy"],
   },
   polygon_mumbai: {
     chainId: `0x${Number(80001).toString(16)}`,
@@ -27,7 +27,7 @@ const networks = {
       symbol: "MATIC",
       decimals: 18,
     },
-    rpcUrls: ["https://rpc-mumbai.matic.today"],
+    rpcUrls: ["https://rpc.ankr.com/polygon_mumbai"],
     blockExplorerUrls: ["https://mumbai.polygonscan.com/"],
   },
   polygon: {
@@ -38,41 +38,41 @@ const networks = {
       symbol: "MATIC",
       decimals: 18,
     },
-    rpcUrls: ["https://rpc-mainnet.maticvigil.com/"],
+    rpcUrls: ["https://rpc.ankr.com/polygon"],
     blockExplorerUrls: ["https://polygonscan.com/"],
   },
   bsc: {
     chainId: `0x${Number(56).toString(16)}`,
     chainName: "Binance Smart Chain Mainnet",
     nativeCurrency: {
-      name: "BNB",
+      name: "Binance Chain Native Token",
       symbol: "BNB",
       decimals: 18,
     },
-    rpcUrls: ["https://bsc-dataseed.binance.org/"],
+    rpcUrls: ["https://rpc.ankr.com/bsc"],
     blockExplorerUrls: ["https://bscscan.com"],
   },
   base_mainnet: {
-    chainId: `0x${Number(1).toString(16)}`,
-    chainName: "Ethereum Mainnet",
+    chainId: `0x${Number(8453).toString(16)}`,
+    chainName: "Base Mainnet",
     nativeCurrency: {
       name: "ETH",
       symbol: "ETH",
       decimals: 18,
     },
-    rpcUrls: ["https://mainnet.infura.io/v3/your_infura_key"],
-    blockExplorerUrls: ["https://etherscan.io"],
+    rpcUrls: ["https://mainnet.base.org/"],
+    blockExplorerUrls: ["https://bscscan.com"],
   },
   base_sepolia: {
-    chainId: `0x${Number(2).toString(16)}`,
+    chainId: `0x${Number(84532).toString(16)}`,
     chainName: "Base Sepolia",
     nativeCurrency: {
       name: "ETH",
       symbol: "ETH",
       decimals: 18,
     },
-    rpcUrls: ["https://rpc.example.com"],
-    blockExplorerUrls: ["https://blockexplorer.example.com"],
+    rpcUrls: ["https://sepolia.base.org"],
+    blockExplorerUrls: ["https://bscscan.com"],
   },
   localhost: {
     chainId: `0x${Number(31337).toString(16)}`,
@@ -82,7 +82,7 @@ const networks = {
       symbol: "GO",
       decimals: 18,
     },
-    rpcUrls: ["http://127.0.0.8545/"],
+    rpcUrls: ["http://127.0.0.1:8545/"],
     blockExplorerUrls: ["https://bscscan.com"],
   },
 };

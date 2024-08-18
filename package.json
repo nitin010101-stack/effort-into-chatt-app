@@ -9,15 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "ethers": "^5.7.2",
+    "dotenv": "^16.4.5",
+    "i": "^0.3.7",
     "next": "12.3.1",
+    "node-modules": "^1.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "web3modal": "^1.9.9"
   },
   "devDependencies": {
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
-    "hardhat": "^2.22.6"
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@typechain/ethers-v5": "^10.2.1",
+    "@typechain/hardhat": "^6.1.6",
+    "chai": "^4.5.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.8",
+    "hardhat-gas-reporter": "^1.0.10",
+    "solidity-coverage": "^0.8.12",
+    "typechain": "^8.3.2"
   },
   "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.",
   "main": "hardhat.config.js",
